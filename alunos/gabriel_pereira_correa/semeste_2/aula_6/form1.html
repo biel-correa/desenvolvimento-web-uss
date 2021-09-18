@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de inscrição</title>
+
+    <link rel="stylesheet" href="./css/form1.css">
+</head>
+<body>
+    <div class="header">
+        <p>
+            1 - Ficha de inscrição
+        </p>
+    </div>
+    <div class="container">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, architecto!</h3>
+        <form action="">
+            <div class="form-group">
+                <label for="">Endereço de e-mail:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="">Nome:</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value=""></option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <select name="curso" id="curso">
+                    <option value=""></option>
+                    <option value="tec-informatica">Técnico em Informática</option>
+                    <option value="tec-alimentos">Técnico em Alimentos</option>
+                    <option value="tec-agropecuaria">Técnico em Agropecuária</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Endereço para correspondência:</label>
+                <input type="text"> 
+            </div>
+            <div class="form-group">
+                <label for="">Complemento do endereço:</label>
+                <input type="text"> 
+            </div>
+            <div class="form-group">
+                <label for="">CEP:</label>
+                <input type="text"> 
+            </div>
+            <div class="form-group form-many">
+                <label for="">Município:</label>
+                <div class="inputs">
+                    <input type="text" class="w-70"> 
+                    <select name="estado" id="estado" class="w-30">
+                        <option value="RS">RS</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                    </select>
+                </div>
+            </div>
+            <div class="center">
+                <button type="submit" class="btn">Salvar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

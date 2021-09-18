@@ -1,0 +1,47 @@
+.header{
+    background-color: #474747;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo{
+    width: 200px;
+    padding: 5px 10px;
+}
+
+.header .links{
+    display: flex;
+    align-items: center;
+}
+
+.header .links ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.header .links ul li{
+    margin: 0 5px;
+}
+
+.header .button{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 200ms ease-out;
+    text-decoration: none;
+}
+
+.header .button.active{
+    background-color: rgb(230, 230, 230);
+    color: #474747;
+    transition: 200ms ease-out;
+}
+
+.header .button:hover{
+    background-color: #fff;
+    color: #474747;
+}

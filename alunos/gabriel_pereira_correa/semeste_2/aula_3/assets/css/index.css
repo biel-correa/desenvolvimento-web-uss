@@ -1,0 +1,60 @@
+.apresentacao{
+    display: flex;
+    height: 40vh;
+}
+
+.apresentacao .imagem, .area{
+    width: 50%;
+}
+
+.apresentacao .imagem{
+    background-image: url('../img/cafe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apresentacao .imagem .layer{
+    background-color: rgba(30, 30, 30, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.apresentacao .imagem .layer .layer-content h1, .apresentacao .imagem .layer .layer-content h3{
+    margin: 0;
+    color: #fff;
+}
+
+.apresentacao .area{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    box-sizing: content-box !important;
+}
+
+.section.darker{
+    background-color: #e9e9e9;
+}
+
+.section .imagem{
+    width: 30%;
+    min-height: 250px;
+    background-image: url('../img/section-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section .section-content{
+    width: 70%;
+    padding: 0 20px;
+}

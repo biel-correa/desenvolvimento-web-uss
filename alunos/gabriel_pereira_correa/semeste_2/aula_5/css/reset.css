@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    width: 100%;
+}
+
+.landing{
+    background-color: #ef7197;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.landing .text{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.landing .image img{
+    padding-top: 10px;
+    width: 500px;
+    background-image: linear-gradient(to top , #ef7197, #f8afc5);
+    border-radius: 20px;
+}
+.landing .text .button{
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 250ms ease-in-out;
+}
+
+.landing .text .button:hover{
+    background-color: #fff;
+    color: #ef7197;
+}

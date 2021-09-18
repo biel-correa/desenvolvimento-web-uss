@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/navbar.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contato.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <title>Bom café</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="./assets/img/logo.png" alt="logo" class="logo">
+    <div class="links">
+      <ul>
+        <li>
+          <a href="index.html" class="button">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="./contato.html" class="button active">
+            Contato
+          </a>
+        </li>
+        <li>
+          <a href="./sobre-nos.html" class="button">
+            Sobre-nós
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="contatos">
+      <h1>
+        Nossos contatos
+      </h1>
+      <ul>
+        <li>Carlos
+          <ul>
+            <li><a href="https://wa.me/5524981500315">Whatsapp</a></li>
+          </ul>
+        </li>
+        <li>Gabriel
+          <ul>
+            <li><a href="https://wa.me/5524993145000">Whatsapp</a></li>
+          </ul>
+        </li>
+        <li>Luiz
+          <ul>
+            <li><a href="https://wa.me/5524992391229">whatsapp</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="mensagem">
+        <h2>
+          Envie uma mensagem
+        </h2>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+          <div class="row">
+            <label for="">
+              Nome
+            </label>
+            <input type="text" name="nome">
+          </div>
+          <div class="row">
+            <label for="">Email</label>
+            <input type="text" name="email">
+          </div>
+          <div class="row">
+            <textarea placeholder="Mensagem" style="font-size:18px;height:220px;"></textarea>
+          </div>
+          <div class="row center">
+            <button type="submit" class="btn">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

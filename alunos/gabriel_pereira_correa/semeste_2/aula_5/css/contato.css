@@ -1,0 +1,76 @@
+.landing .image img{
+    padding-top: 10px;
+    width: 400px;
+    background-image: none !important;
+    border-radius: 20px;
+}
+
+.row .form{
+    margin: 0 25%;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.row .form form{
+    display: flex;
+    flex-direction: column;
+}
+.row .form form input, .row .form form textarea{
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.row .form form button{
+    font-size: 1.2rem;
+    border: 2px solid #ef7197;
+    margin: 0 10%;
+    padding: 5px 0;
+    border-radius: 30px;
+    transition: 250ms ease-in-out;
+}
+
+/* ====================================== */
+/* segredo das coisas mudando com o mouse */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row .form form button:hover{
+    background-color: #ef7197;
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,90 @@
+.navbar{
+    height: 90px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    transition: 250ms ease-in-out;
+}
+.navbar .links{
+    font-size: 1.3rem;
+    margin: 0 10px;
+    
+    display: flex;
+    align-items: center;
+}
+.navbar .links a{
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navbar .logo{
+    margin-right: 7px;
+    width: 200px;
+}
+.navbar .actions{
+    font-size: 1.2rem;
+    margin-right: 17px;
+    display: flex;
+    align-items: center;
+}
+.navbar .actions .action{
+    text-decoration: none;
+    border: 2px solid #ef7197;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+}
+
+.content{
+    padding-top: 110px;
+}
+
+/* ====================================== */
+/* segredo das coisas mudando com o mouse */
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .actions .action:hover{
+    color: white;
+    background-color: #ef7197;
+}
+.navbar:hover{
+    background-color: #fff;
+}

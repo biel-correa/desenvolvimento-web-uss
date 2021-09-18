@@ -1,0 +1,16 @@
+.landing .image img{
+    padding-top: 10px;
+    width: 400px;
+    background-image: none !important;
+    border-radius: 20px;
+}
+
+.container{
+    padding: 0 25%;
+    margin-bottom: 50px;
+}
+
+.container h1{
+    color: #ef7197;
+    margin-bottom: 5px;
+}

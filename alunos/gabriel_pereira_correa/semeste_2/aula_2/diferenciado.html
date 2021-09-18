@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            padding: 0 15%;
+            padding-top: 50px;
+            min-height: 95vh;
+            background-color: #f1f1f1;
+        }
+
+        .row-card {
+            display: flex;
+        }
+
+        .card {
+            max-width: calc(350px - 20px);
+            font-family: 'Roboto', sans-serif;
+            background-color: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            margin: 0 10px;
+            transition: 200ms ease-out;
+        }
+
+        .card:hover{
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        .card header img {
+            max-width: 100%;
+        }
+
+        .card .info {
+            margin-bottom: 10px;
+        }
+
+        .card .info h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .card .info span {
+            color: #808080;
+            font-size: 1.2rem;
+        }
+
+        .card .content {
+            border-top: 2px solid rgb(196, 196, 196);
+        }
+
+        .card .content h2 {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-card">
+            <div class="card">
+                <header>
+                    <img src="./assets/bel.png" alt="foto bel">
+                </header>
+                <div class="info">
+                    <h1>Gabriel Pereira Corrêa</h1>
+                    <span>Idade: 18</span>
+                </div>
+                <div class="content">
+                    <h2>Experiências: </h2>
+                    <h3>Desenvolvi os sites:</h3>
+                    <ul>
+                        <li>labsegvr.com.br</li>
+                        <li>wsegvr.com.br</li>
+                        <li>front-end do educpro.com.br</li>
+                    </ul>
+                    <p>
+                        Além disso fiz a gestão de mais dois projetos.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <header>
+                    <img src="./assets/kay.png" alt="foto bel">
+                </header>
+                <div class="info">
+                    <h1>Kayani Pereira Leandro</h1>
+                    <span>Idade: 18</span>
+                </div>
+                <div class="content">
+                    <h2>Experiências: </h2>
+                    <ul>
+                        <li>Operador Industrial-Ambev</li>
+                    </ul>
+                    <h3>Formação:</h3>
+                    <ul>
+                        <li>Técnico em Automação Industrial</li>
+                        <li>Engenharia de Software-Cursando</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

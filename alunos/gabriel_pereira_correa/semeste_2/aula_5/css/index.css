@@ -1,0 +1,13 @@
+.grid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+    padding:0 10%;
+}
+.grid .image img{
+    width: 500px;
+}
+.grid .texto h1{
+ color: #ef7197;
+}
