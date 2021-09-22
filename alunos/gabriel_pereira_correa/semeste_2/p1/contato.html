@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .row {
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .row label {
+            width: 30%;
+            text-align: left;
+        }
+
+        .row input, .row select {
+            width: 70%;
+        }
+
+        .right {
+            width: 100%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Hamburgueria Artesanal</h1>
+        <hr>
+        <h3>Formulário</h3>
+        <p>Preencha o formulário abaixo, deixe suas sugestão e fique por dentro das novidades.</p>
+        <form action="#">
+            <div class="row">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="row">
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+            </div>
+            <div class="row">
+                <label for="Tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="comentario">Comentário</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
+            <div class="row">
+                <label for="comentario">Comentário</label>
+                <input type="text" id="comentario">
+            </div>
+            <div>
+                <input type="checkbox" name="novidades" id="novidades">
+                <label for="novidades">Quero receber novidades</label>
+            </div>
+            <div class="right">
+                <button class="btn">Enviar</button>
+            </div>
+        </form>
+        <footer>
+            <h3>Voltar para página principal</h3>
+            <p>Desenvolvido por: xxxxxxxxxx - 2021 - todos os direitos reservados</p>
+        </footer>
+    </section>
+</body>
+</html>

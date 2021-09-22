@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            text-align: center;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: fit-content;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .row{
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            padding-bottom: 5px;
+        }
+
+        .row h3, .row p, .row ul {
+            margin-top: 0;
+        }
+
+        .col {
+            width: 50%;
+        }
+
+        .col img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Hamburgueria Artesanal</h1>
+        <hr>
+        <h3>Nome do item</h3>
+        <div class="center">
+            <div class="card flex">
+                <div class="col">
+                    <img src="./img/hamburguer.jpg" alt="foto do item">
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <h3>Descrição:</h3>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li>Pão</li>
+                            <li>Salada</li>
+                            <li>Queijo</li>
+                            <li>Bife</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3>Preço:</h3>
+                    </div>
+                    <div class="row">
+                        <p>
+                            R$ 25,99 (Vinte cinco reais e noventa e nove centavos)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3>Voltar para página principal</h3>
+            <p>Desenvolvido por: xxxxxxxxxx - 2021 - todos os direitos reservados</p>
+        </footer>
+    </section>
+</body>
+</html>
