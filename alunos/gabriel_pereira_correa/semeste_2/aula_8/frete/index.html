@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Comprar notebook</h1>
+        <p>Valor unitário: R$ 1200,00</p>
+        <form action="#" onsubmit="return calcPreco()">
+            <label for="quantNotebooks">Número de notebooks</label>
+            <input type="number" id="quantNotebooks">
+        </form>
+        <p id="valorFinal"></p>
+    </section>
+    <hr>
+    <section class="frete">
+        <h1>Frete</h1>
+        <form action="#" onsubmit="return calcFrete()">
+            <label for="frete">Valor do frete</label>
+            <input type="text" placeholder="R$ 100.00" id="frete">
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="valorFrete"></p>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
