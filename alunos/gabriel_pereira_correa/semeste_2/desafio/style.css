@@ -1,0 +1,21 @@
+:root {
+    --roxo: #6653BA;
+    --branco: #f4f4f4;
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 50px;
+    color: #6653BA;
+}
+
+.header {
+    background-color: #f4f4f4;
+    color: #6653BA;
+}

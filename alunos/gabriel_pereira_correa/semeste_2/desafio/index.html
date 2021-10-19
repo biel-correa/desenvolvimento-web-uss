@@ -5,12 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jo ken po</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card" id="escolha-pedra">pedra</div>
+    <!-- <div class="card" id="escolha-pedra">pedra</div>
     <div class="card" id="escolha-papel">papel</div>
     <div class="card" id="escolha-tesoura">tesoura</div>
-    <p class="message" id="message"></p>
+    <p class="message" id="message"></p> -->
+
+        <header class="header">
+            <h1>Jo Ken Po</h1>
+            <p>Faça sua escolha</p>
+        </header>
+
+        <main>
+            <div class="card" id="escolha-pedra">
+                <img src="img/pedra.svg">
+                <span class="pedra">Pedra</span> 
+            </div>
+
+            <div class="card" id="escolha-papel">
+                <img src="img/papel.svg">
+                <span class="papel">Papel</span>
+            </div>
+
+            <div class="card" id="escolha-tesoura">
+                <img src="img/tesoura.svg">
+                <span class="tesoura">Tesoura</span>
+            </div>
+        </main>
+
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./js/main.js"></script>
