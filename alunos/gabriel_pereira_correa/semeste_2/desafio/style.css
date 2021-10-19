@@ -15,7 +15,56 @@ img {
     color: #6653BA;
 }
 
+body {
+    background-color: #6653BA;
+}
+
 .header {
     background-color: #f4f4f4;
     color: #6653BA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 5em;
+}
+
+.header p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    color: #6653BA;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+#message {
+    font-size: 2em;
+    text-transform: uppercase;
 }
