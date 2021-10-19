@@ -22,13 +22,13 @@ $(document).ready(function() {
         let escolhaBot = opcoes[random]
     
         if (escolha == 'papel' && escolhaBot == 'pedra') {
-            console.log('venceu')
+            $('#message').html("Venceu")
         } else if (escolha == 'tesoura' && escolhaBot == 'papel') {
-            console.log('venceu')
+            $('#message').html("Venceu")
         } else if (escolha == 'pedra' && escolhaBot == 'tesoura') {
-            console.log('venceu')
+            $('#message').html("Venceu")
         } else {
-            console.log('perdeu')
+            $('#message').html("Perdeu")
         }
     }
 })
