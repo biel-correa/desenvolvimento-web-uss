@@ -20,6 +20,8 @@ $(document).ready(function() {
     function calcular() {
         const random = Math.floor(Math.random() * opcoes.length);
         let escolhaBot = opcoes[random]
+
+        console.log(escolha, escolhaBot)
     
         if (escolha == 'papel' && escolhaBot == 'pedra') {
             $('#message').html("Venceu")
@@ -27,6 +29,8 @@ $(document).ready(function() {
             $('#message').html("Venceu")
         } else if (escolha == 'pedra' && escolhaBot == 'tesoura') {
             $('#message').html("Venceu")
+        } else if(escolha == escolhaBot) {
+            $('#message').html("Empate")
         } else {
             $('#message').html("Perdeu")
         }
