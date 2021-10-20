@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var escolha = ""
     var opcoes = ['pedra', 'papel', 'tesoura']
+    var contador = 1
 
     $('#escolha-pedra').on('click', function() {
         escolha = 'pedra'
@@ -53,5 +54,8 @@ $(document).ready(function() {
             $('#message').html("Perdeu")
             $('#message').addClass('danger')
         }
+
+        contador ++
+        $('#contador').html(contador)
     }
 })
