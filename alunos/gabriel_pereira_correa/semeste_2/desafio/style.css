@@ -57,6 +57,14 @@ body {
     gap: 20px;
     cursor: pointer;
     padding: 10px;
+
+    transition: 200ms ease-out;
+}
+
+.card.active {
+    background-color: #ede8fc;
+    color: #6653BA;
+    border-color: #f4f4f4; 
 }
 
 .card.opcao-bot {

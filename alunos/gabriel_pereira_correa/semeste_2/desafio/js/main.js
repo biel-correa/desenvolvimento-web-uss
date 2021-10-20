@@ -1,20 +1,31 @@
 $(document).ready(function() {
     var escolha = ""
     var opcoes = ['pedra', 'papel', 'tesoura']
-    var contador = 1
+
+    var contador = 0
+    $('#contador').html(contador)
 
     $('#escolha-pedra').on('click', function() {
         escolha = 'pedra'
+        $('#escolha-pedra').addClass("active")
+        $('#escolha-papel').removeClass("active")
+        $('#escolha-tesoura').removeClass("active")
         calcular()
     })
     
     $('#escolha-papel').on('click', function() {
         escolha = 'papel'
+        $('#escolha-papel').addClass("active")
+        $('#escolha-pedra').removeClass("active")
+        $('#escolha-tesoura').removeClass("active")
         calcular()
     })
     
     $('#escolha-tesoura').on('click', function() {
         escolha = 'tesoura'
+        $('#escolha-tesoura').addClass("active")
+        $('#escolha-pedra').removeClass("active")
+        $('#escolha-papel').removeClass("active")
         calcular()
     })
     
