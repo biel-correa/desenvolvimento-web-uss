@@ -17,6 +17,7 @@ img {
 
 body {
     background-color: #6653BA;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -58,6 +59,10 @@ body {
     padding: 10px;
 }
 
+.card.opcao-bot {
+    justify-content: center;
+}
+
 .card span {
     font-size: 1.5em;
     font-weight: bold;
@@ -67,4 +72,25 @@ body {
 #message {
     font-size: 2em;
     text-transform: uppercase;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+}
+
+.success {
+    color: #00ff00;
+}
+
+.danger {
+    color: #ff1100;
+}
+
+.warning {
+    color: #fffb00;
+}
+
+.message {
+    margin: 20px 0;
 }

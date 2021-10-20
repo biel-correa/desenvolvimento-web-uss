@@ -19,20 +19,39 @@ $(document).ready(function() {
     
     function calcular() {
         const random = Math.floor(Math.random() * opcoes.length);
-        let escolhaBot = opcoes[random]
+        const escolhaBot = opcoes[random];
 
-        console.log(escolha, escolhaBot)
+        switch (escolhaBot) {
+            case 'pedra':
+                $('#escolha-bot').html("<img src=\"img/pedra.svg\">")
+                break;
+            case 'papel':
+                $('#escolha-bot').html("<img src=\"img/papel.svg\">")
+                break;
+            case 'tesoura':
+                $('#escolha-bot').html("<img src=\"img/tesoura.svg\">")
+                break;
+
+            default:
+                break;
+        }
     
+        $('#message').removeClass()
         if (escolha == 'papel' && escolhaBot == 'pedra') {
             $('#message').html("Venceu")
+            $('#message').addClass('success')
         } else if (escolha == 'tesoura' && escolhaBot == 'papel') {
             $('#message').html("Venceu")
+            $('#message').addClass('success')
         } else if (escolha == 'pedra' && escolhaBot == 'tesoura') {
             $('#message').html("Venceu")
+            $('#message').addClass('success')
         } else if(escolha == escolhaBot) {
             $('#message').html("Empate")
+            $('#message').addClass('warning')
         } else {
             $('#message').html("Perdeu")
+            $('#message').addClass('danger')
         }
     }
 })
