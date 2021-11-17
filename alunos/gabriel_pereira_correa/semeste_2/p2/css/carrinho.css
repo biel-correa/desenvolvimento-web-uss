@@ -1,0 +1,31 @@
+.finalizar {
+    padding: 0 15%;
+    padding-top: 20px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background: #F6C114;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    padding-top: 104px;
+}
